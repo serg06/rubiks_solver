@@ -11,7 +11,7 @@ public class Main : MonoBehaviour {
 	public static void Start () {
 		cube = (Cube) GameObject.FindObjectOfType (typeof(Cube));
 
-		// Rotate cube one way, then back
+		// Rotate cube one way, then back, using Singmaster Notation.
 		cube.rotate("F B U D L R F' B' U' D' L' R'");
 		cube.rotate("F B U D L R F' B' U' D' L' R'", reverse: true);
 	}
